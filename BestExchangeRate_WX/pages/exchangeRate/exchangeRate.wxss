@@ -1,0 +1,26 @@
+.widget{
+  position:relative;
+  margin-top:5rpx;
+  margin-bottom:5rpx;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+  padding-left:60rpx;
+  padding-right:40rpx;
+  border:#ddd 1px solid;
+  color: #abc;
+}
+.container{
+  height:100%;
+  width: 100%;
+  display:table;
+  align-items:center;
+  justify-content:space-between;
+  box-sizing:border-box;
+  padding-top:10rpx;
+  padding-bottom: 10rpx;
+  text-align:center;
+}
+.column{
+  width:20rem;
+  display:table-cell;
+}
